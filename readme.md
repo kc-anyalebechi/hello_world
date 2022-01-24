@@ -3,7 +3,7 @@
 |Day|Deliverable|Status|
 |----|-----------|-------------|
 |Day 1|Project Description|Completed|
-|Day 1|Wireframes / Priority Matrix / Timeline|Not Started|
+|Day 1|Wireframes / Priority Matrix / Timeline|Pending|
 |Day 3|Core Application Structure (HTML, CSS, etc.)|Not Started|
 |Day 4|MVP & Bug Fixes|Not Started|
 |Day 5|Final Touches	|Not Started|
