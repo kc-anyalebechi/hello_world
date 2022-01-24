@@ -1,13 +1,22 @@
 # Project One Portfolio
 
-|Name|Email|Address|
+|Day|Deliverable|Status|
 |----|-----------|-------------|
-|John|john@example.com|Address1|
+|Day 1|Project Description|Completed|
+|Day 1|Wireframes / Priority Matrix / Timeline|Not Started|
+|Day 3|Core Application Structure (HTML, CSS, etc.)|Not Started|
+|Day 4|MVP & Bug Fixes|Not Started|
+|Day 5|Final Touches	|Not Started|
+|Day 6|Present	|Not Started|
 
+---
 
-## Requirements
+## Day 1 - Description - COMPLETED 
+---
 
-### Your work must:
+This project is a website/app displaying and highlighting everything I learned that learned the last 2 weeks of the GA Sotfware Engineering Intensive. This project will be in completed in the form of a personal portfolio. 
+
+## My project will have the following elements:
 
 1. Use semantic markup for HTML and CSS, adhering to best practices.
 2. Use CSS GRID and Flexbox.
@@ -17,20 +26,24 @@
     * Animations
     * Javascript logic
     * jQuery interactions
-4. Be deployed and accessible online via Github Pages.
+4. Be deployed and accessible online via Github Pages. 
+
+Here is the site where Im getting my web idea from [Link](https://jacekleznach.com)
+
+![Website](https://drive.google.com/file/d/11H2GhdcVW6xZewoDFETJcHaDxRAGcSo6/view?usp=sharing)
+ 
 
 
-
-git commit Examples: 
-
-```
-git commit -m "connect html, css, and javascript files"
-
-git commit -m "basic html for about me section"
-
-git commit -m "style about me section" 
-```
+***
+## Day 1 - Wireframes / Priority Matrix / Timeline - 
 ---
+## Day 3 - Core Application Structure (HTML, CSS, etc.) - 
+---
+## Day 4 - MVP & Bug Fixes - 
+---
+## Day 5 - Final Touches - 
+---
+## Day 6 - Present	 - 
 
 THOUGHT QUESTIONS: 
 
