@@ -1,9 +1,11 @@
 # Project One Portfolio
 
+This project is a website/app displaying and highlighting everything I learned that learned the last 2 weeks of the GA Sotfware Engineering Intensive. This project will be in completed in the form of a personal portfolio. 
+
 |Day|Deliverable|Status|
 |----|-----------|-------------|
-|Day 1|Project Description|Completed|
-|Day 1|Wireframes / Priority Matrix / Timeline|Pending|
+|Day 1.0|Project Description|Completed|
+|Day 1.1|Wireframes / Priority Matrix / Timeline|Completed|
 |Day 3|Core Application Structure (HTML, CSS, etc.)|Not Started|
 |Day 4|MVP & Bug Fixes|Not Started|
 |Day 5|Final Touches	|Not Started|
@@ -14,7 +16,7 @@
 ## Day 1.0 - Description - COMPLETED 
 ---
 
-This project is a website/app displaying and highlighting everything I learned that learned the last 2 weeks of the GA Sotfware Engineering Intensive. This project will be in completed in the form of a personal portfolio. 
+
 
 ## My project will have the following elements:
 
@@ -56,7 +58,7 @@ Here is the site where Im getting my web idea from [Link](https://jacekleznach.c
 
 * [Here](https://drive.google.com/file/d/1-LQSWi3kTGQ_0vWbW7Oq1Su6ivWh8Q5K/view?usp=sharing) is the image of my priority matrix. 
 
-* List of the features in order of priorty. Click here to see the image of the complete list. Also note that 30mins was added to each feature for margin time was orginally alloted.  
+* List of the features in order of priorty. Click [here](https://drive.google.com/file/d/1HdZhLCT-eNyy1lYta30LOH8sUy2qMweN/view?usp=sharing) to see the image of the complete list. Also, please note that 30mins was added to each feature for margin time.  
 
 Value Order | Feature (Priority Level)        | Budgeted Time | Actual Time
 |-----------|----------------|---------------|------------|
