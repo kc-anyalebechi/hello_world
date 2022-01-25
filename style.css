@@ -1,0 +1,74 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 4fr 1fr;
+    gap: 1em;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+
+.header .logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+    
+.header .nav {
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
+
+
+
+.containerMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6 1fr);
+    grid-column: 1/3;
+    grid-row: 2/3;
+    /* gap: 1em; */
+    
+}
+
+.containerMain .name {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+
+}
+
+.containerMain .portfolio {
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+}
+
+.containerMain .about {
+            grid-column: 1/3;
+            grid-row: 3/4;  
+            
+        }            
+.containerMain .skills {
+                grid-column: 1/3;
+                grid-row: 4/5;
+} 
+
+.containerMain .contact {
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+.footer {
+    display: grid;
+    grid-column: 1/3; 
+    grid-row: 3/4; 
+   
+}

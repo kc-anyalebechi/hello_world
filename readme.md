@@ -1,19 +1,19 @@
 # Project One Portfolio
 
-This project is a website/app displaying and highlighting everything I learned that learned the last 2 weeks of the GA Sotfware Engineering Intensive. This project will be in completed in the form of a personal portfolio. 
+This project is a website/app displaying and highlighting everything I have learned over the last 2 weeks of the GA Sotfware Engineering Intensive. This project will be in completed in the form of a personal portfolio. 
 
 |Day|Deliverable|Status|
 |----|-----------|-------------|
 |Day 1.0|Project Description|Completed|
 |Day 1.1|Wireframes / Priority Matrix / Timeline|Completed|
-|Day 3|Core Application Structure (HTML, CSS, etc.)|Not Started|
+|Day 3|Core Application Structure (HTML, CSS, etc.)|Started|
 |Day 4|MVP & Bug Fixes|Not Started|
 |Day 5|Final Touches	|Not Started|
 |Day 6|Present	|Not Started|
 
 ---
 
-## Day 1.0 - Description - COMPLETED 
+## Day 1.0 - Description - COMPLETED - Monday
 ---
 
 
@@ -32,14 +32,15 @@ This project is a website/app displaying and highlighting everything I learned t
 
 
 BRAINSTORMING: 
-Here is the site where Im getting my web idea from [Link](https://jacekleznach.com)
 
-[Website](https://drive.google.com/file/d/11H2GhdcVW6xZewoDFETJcHaDxRAGcSo6/view?usp=sharing)
+* [Here](https://jacekjeznach.com/) is the site where Im getting my web idea from.
+
+* [This](https://drive.google.com/file/d/11H2GhdcVW6xZewoDFETJcHaDxRAGcSo6/view?usp=sharing) is an image of Jack's home page. 
  
 
 
 ***
-## Day 1.1 - Wireframes / Priority Matrix / Timeline:  
+## Day 1.1 - Wireframes / Priority Matrix / Timeline - COMPLETED - Monday
 ---
 ### Wireframes: 
 
@@ -62,9 +63,9 @@ Here is the site where Im getting my web idea from [Link](https://jacekleznach.c
 
 Value Order | Feature (Priority Level)        | Budgeted Time | Actual Time
 |-----------|----------------|---------------|------------|
-A1          |Grid & Flex Box (High) | 2.5hrs 
+A1          |Grid & Flex Box (High) | 2.5hrs | 1.5hrs
 G2| Make Responsive to tablet and desktop (High)| 2.5hrs 
-B3 | Insert Placeholder content and images (Mid-High) | 2hrs 
+B3 | Insert Placeholder content and images (Mid-High) | 2hrs | 30 mins 
 C4| Set Functions and Nav Sticky Bar (Mid-High) |1.5hrs
 E5 | DeBug (Medium) | 1.5hrs 
 D6|Flip/Toggle Portfolio Skills Boxes (Medium) | 2hrs
