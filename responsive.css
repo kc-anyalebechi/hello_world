@@ -40,6 +40,19 @@
 /* MOBILE  */
 @media screen and (max-width: 576px){
 
+    .container {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 5% 90% 5%;
+        gap: 1em;
+        background-color: rgb(48, 47, 47);
+        color: white;
+    }
+
+    .containerMain .name {
+        font-size: xx-large;
+    }
+
     .containerMain {
         display: grid;
         grid-column: 1/4;
@@ -47,16 +60,19 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6 1fr);
         padding-left: 10px;
-        padding-right: 10px;   
+        padding-right: 10px;
+        font-size: xx-large;   
     }
 
     .containerMain .portfolio {
+        
+       padding-top: 2em;
         grid-column: 1/2;
-
-        padding-bottom:1em;
+       padding-bottom:1em;
     }
 
     
+
     .containerMain .about .text {
         padding-top: 1em;
         padding-bottom: 1em;
@@ -72,6 +88,13 @@
         
     }
 
+
+    .containerMain .skills h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+
     .containerMain .skills {
         grid-column: 1/ 4;
         grid-row: 5/ 6;
@@ -86,7 +109,7 @@
     .containerMain .skills .html{
         grid-column: 1/2;
         grid-row: 2/3;
-        padding-bottom: 5em;
+        padding-bottom: 2em;
     
     }
     
@@ -95,15 +118,15 @@
         grid-row: 3/4;
         }
     
-/*     
-    .containerMain .skills .jas {
-        grid-column: 1/2;
-        grid-row: 4/5; */
-            
-    }
+
     .containerMain .skills .jas {
         grid-column: 1/2;
         grid-row: 4/5;
+            
+    }
+    .containerMain .skills .jq {
+        grid-column: 1/2;
+        grid-row: 5/6;
     }
 
 
@@ -131,12 +154,29 @@
         grid-row: 7/ 8;
     }
 
+    .container .footer {
+        display: inline;
+        grid-column: 1/4; 
+        grid-row: 4/5; 
+        height: 20px;
+        color: white;
+        padding: 1em;
+        font: 1em sans-serif;
+    
+    }
+
     .containerMain footer a{
         display: inline-flex;
         justify-content: space-around;
     }
 
-    
+/*     
+    .typewriter h1 {
+        white-space: nowrap; /* Keeps the content on a single line */
+        font-size: 2ms;
+
+    } */
+
 
     nav a {
 		display: none;
