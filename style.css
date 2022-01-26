@@ -30,7 +30,7 @@ padding: 0;
 .container .header .nav {
     grid-column: 3/4; 
     grid-row: 1/2; 
-    height: 100px;
+    height: 10vh;
     color: white;
     font-size: small;
     background-color: rgb(48, 47, 47);
@@ -85,7 +85,9 @@ padding: 0;
     grid-row: 2/3;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
-    padding-left: 10px;    
+    padding-left: 10px;
+    padding-right: 10px;    
+    
 }
 
 .containerMain .typewriter h1 {
@@ -145,14 +147,14 @@ padding: 0;
 
 }
 
-/* .containerMain .about .myPhoto{
+.containerMain .about .myPhoto{
     grid-column: 2/4;
     grid-row: 3/4; 
-    height: 450px;
-    width: 450px;
+    height: 45vh;
+    width: 45vw;
     background-color: white;
     border-radius: 50%; 
-     */
+}
    
 
 .containerMain .skills {
@@ -162,6 +164,7 @@ padding: 0;
         color: turquoise;
         grid-template-columns: repeat(5 1fr);
         grid-template-rows: 1fr 1fr; 
+        padding-bottom: 1em;
     
 } 
 
@@ -177,6 +180,7 @@ SKILLS BOXS
     width: 150px;
     text-align: center;
     box-shadow: 6px 1px 6px 6px  teal;
+    margin-bottom: 2em;
 
 }
 
@@ -187,6 +191,8 @@ SKILLS BOXS
     width: 150px;
     text-align: center;
     box-shadow: 6px 1px 6px 6px  red;
+    margin-bottom: 2em;
+
 
 }
 
@@ -198,17 +204,31 @@ SKILLS BOXS
     width: 150px;
     text-align: center;
     box-shadow: 6px 1px 6px 6px  red;
+    margin-bottom: 2em;
+
 
 }
-.containerMain .skills .jass {
+/* .containerMain .skills .jq {
     grid-column: 4/5;
     grid-row: 2/3;
     height: 150px;
     width: 150px;
     text-align: center;
-    box-shadow: 6px 1px 6px 6px  rgb(0, 255, 55);
+    box-shadow: 6px 1px 6px 6px  rgb(0, 255, 55); */
+
+
+.containerMain .skills .jq{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 6px 1px 6px 6px  rgb(4, 0, 255);
+    margin-bottom: 2em;
+
 
 }
+
 .containerMain .skills .json{
     grid-column: 5/6;
     grid-row: 2/3;
@@ -216,6 +236,8 @@ SKILLS BOXS
     width: 150px;
     text-align: center;
     box-shadow: 6px 1px 6px 6px  rgb(4, 0, 255);
+    margin-bottom: 2em;
+
 
 }
 
@@ -272,6 +294,7 @@ CONTACT ME SECTION
     border: turquoise;
     padding-left: 10px;
     align-items: center;
+
 
 } 
 

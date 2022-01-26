@@ -40,68 +40,98 @@
 /* MOBILE  */
 @media screen and (max-width: 576px){
 
-    /* .container {
+    .containerMain {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: .5fr 4fr .5fr;
-        
-    } */
-
-    /* .containerMain{
-        display: grid;
+        grid-column: 1/4;
+        grid-row: 2/3;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(7 1fr);
-    } */
-
-     .containerMain .name{
-        grid-column: 1/ 4;
-        grid-row: 1 / 2;
-        text-align: left;
+        grid-template-rows: repeat(6 1fr);
+        padding-left: 10px;
+        padding-right: 10px;   
     }
 
     .containerMain .portfolio {
-        grid-column: 1 / 4;
-        grid-row: 2/ 3;
+        grid-column: 1/2;
+
+        padding-bottom:1em;
     }
 
-    .main-content .about {
-        display: grid;
-        grid-column: 1 / 4;
-        grid-row: 3 / 5;
+    
+    .containerMain .about .text {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        grid-column: 1/4;
     }
 
-    .main-content .about .text {
-        grid-column: 1 / 4;
-        grid-row: 3 / 4;
-    }
-
-    .main-content .about .myPhoto{
-        grid-column: 1 / 4;
+    .containerMain .about .myPhoto{
+        grid-column: 2 / 3;
         grid-row: 4/ 5;
         width: 200px;
         height: 200px;
+        
+        
     }
 
-    .main-content .skills {
-        grid-column: 1 / 4;
-        grid-row: 1/ 6;
-        display: grid;
+    .containerMain .skills {
+        grid-column: 1/ 4;
+        grid-row: 5/ 6;
+        /* display: grid;
         display: flex;
         flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+    } */
     }
 
-    .main-content .contact {
+    .containerMain .skills .html{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-bottom: 5em;
+    
+    }
+    
+    .containerMain .skills .css {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        }
+    
+/*     
+    .containerMain .skills .jas {
+        grid-column: 1/2;
+        grid-row: 4/5; */
+            
+    }
+    .containerMain .skills .jas {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+
+    .containerMain .skills .json{
+        grid-column: 1/2;
+        grid-row: 6/7;
+
+     } 
+
+     .containerMain .skills h3 {
+    display: flex;
+    justify-content: center; 
+    padding: 2em; 
+    }
+
+
+    .containerMain .contact {
         grid-column: 1 / 4;
         grid-row: 6/ 7;
     }
 
 
-    .main-content .contact .map{
+    .containerMain .contact .map{
         grid-column: 1 / 4;
         grid-row: 7/ 8;
     }
 
-    .footer a{
+    .containerMain footer a{
         display: inline-flex;
         justify-content: space-around;
     }

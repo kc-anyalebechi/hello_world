@@ -66,7 +66,7 @@ Value Order | Feature (Priority Level)        | Budgeted Time | Actual Time
 A1          |Grid & Flex Box (High) | 2.5hrs | 1.5hrs
 G2| Make Responsive to tablet and desktop (High)| 2.5hrs 
 B3 | Insert Placeholder content and images (Mid-High) | 2hrs | 30 mins 
-C4| Set Functions and Nav Sticky Bar (Mid-High) |1.5hrs
+C4| Set Functions and Nav Sticky Bar (Mid-High) |1.5hrs | 1hr 27mins
 E5 | DeBug (Medium) | 1.5hrs 
 D6|Flip/Toggle Portfolio Skills Boxes (Medium) | 2hrs
 F7 |Add Sound and Amination (Mid-Low) |1hr 
