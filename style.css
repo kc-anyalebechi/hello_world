@@ -3,6 +3,91 @@ margin: 0;
 padding: 0; 
 }
 
+/* **************************************
+STICKY NAVBAR and Hamburger Menu Button
+************************************** */
+
+.hamburger {
+    position: fixed; 
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.closeIcon {
+    display: none;
+}
+
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+
+  
+)
+
+/* //////// */
+
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
 
 .container {
     display: grid; 
@@ -34,7 +119,7 @@ padding: 0;
     color: white;
     font-size: small;
     background-color: rgb(48, 47, 47);
-    display: none;
+    /* display: none ; */
     justify-content: flex-end;
 
 }

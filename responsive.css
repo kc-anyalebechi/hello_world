@@ -98,6 +98,7 @@
     .containerMain .skills {
         grid-column: 1/ 4;
         grid-row: 5/ 6;
+        margin-left: 1em;
         /* display: grid;
         display: flex;
         flex-direction: column;
@@ -146,6 +147,7 @@
     .containerMain .contact {
         grid-column: 1 / 4;
         grid-row: 6/ 7;
+        padding: .5em;
     }
 
 

@@ -93,6 +93,10 @@ I added 30 minutes to each feature because after completing the draft I thought 
 --- 
 ## Day 3 - Core Application Structure (HTML, CSS, etc.)  
 ---
+Im working on the menu button and nav bar, JS image toggle, and a sticky nav bar today.
+For the menu button a came accross this site for help. [Link](https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0#:~:text=Begin%20by%20adding%20a%20basic,icon%20to%20show%20with%20Javascript.) 
+
+
 ---
 ## Day 4 - MVP & Bug Fixes
 ---
