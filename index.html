@@ -12,6 +12,20 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+   $(document).ready(function(){
+    $("button").click(function(){
+      $("p").toggle(1000, function(){
+        // alert("The toggle() method is finished!");
+      });
+    });
+  });
+      </script>
+
+
+
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Rubik:ital,wght@0,300;1,300&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <link rel="stylesheet" href="app.js">
 </head>
@@ -65,6 +79,8 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex itaque animi alias perferendis veritatis repellendus reiciendis, mollitia amet cupiditate laboriosam vero molestiae? Omnis labore aspernatur ex vel enim. Eligendi, tenetur!
             </p>
+            <button>Minimize Section</button>
+
         </section>
 
         <div class="about">
@@ -81,7 +97,7 @@
         </div>
 
         <div class="skills">
-            <h2>Skills</h2> <br>
+            <h2>Skills</h2> 
                 <h3 class="html">HTML</h3>
                 <img src="/images/180px-HTML5_logo_and_wordmark.svg.png" alt="html-logo">
                 <h3 class="css">CSS</h3>
@@ -92,24 +108,30 @@
                 <img src="/images/524px-JQuery-Logo.svg.png" alt="524px-JQuery-Logo">
                 <h3 class="json">JSON</h3>
                 <img src="/images/2048px-JSON_vector_logo.svg.png" alt="2048px-JSON_vector_logo">
+            </div> 
 
-
-
-
-        </div>
 
         <section class="contact">
             <div class="text">
                 <h2>Contact Me</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis, architecto, debitis dolorum voluptatibus sit dolore eligendi excepturi ratione saepe fuga soluta quis eum? Rem nulla nam animi temporibus itaque!</p>  
             </div>
-            <div class="map"></div>
+
+
+        <form action="">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+  </form> 
+
+            <!-- <div class="map"></div> -->
+
 
         </section>
-        
-            
-            
-        
+       
+                    
     </div>
 
     <div footer class="footer">
@@ -122,5 +144,12 @@
     </div>
 
 </div>
+
+<!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"></script> -->
+
+
 </body>
 </html>
