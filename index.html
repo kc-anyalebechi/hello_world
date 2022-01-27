@@ -16,8 +16,8 @@
     
     <script>
    $(document).ready(function(){
-    $("button").click(function(){
-      $("p").toggle(1000, function(){
+    $(".minimize").click(function(){
+      $(".port").toggle(1000, function(){
         // alert("The toggle() method is finished!");
       });
     });
@@ -46,6 +46,7 @@
             
             <button class="hamburger">
                 <i class="menuIcon material-icons">menu</i>
+                <!-- <i class="menu material-icons">menu</i> -->
                 <i class="closeIcon material-icons">close</i>
             </button>
         </nav>
@@ -61,7 +62,7 @@
             <div class="typewriter">
                 
                 <h1>
-                Hi, I'm <span>[My<span> name goes here], and welcome to my portfolio. 
+                Hi, I'm <span>K<span>elechuku, and welcome to my portfolio. 
                 </h1>
             </div>
 
@@ -76,10 +77,10 @@
             <h2>
                 My portfolio
             </h2>
-            <p>
+            <p class="port">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex itaque animi alias perferendis veritatis repellendus reiciendis, mollitia amet cupiditate laboriosam vero molestiae? Omnis labore aspernatur ex vel enim. Eligendi, tenetur!
             </p>
-            <button>Minimize Section</button>
+            <button class="minimize">Minimize Section</button>
 
         </section>
 
@@ -92,12 +93,14 @@
                  <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia maxime excepturi obcaecati velit tempora quo praesentium voluptates cumque possimus aspernatur a deleniti! Sequi dignissimos nesciunt, porro error architecto quam. 
                  </p>
-            </div>
-            <div class="myPhoto"></div>
+        </div>
+        
+        <div class="myPhoto"></div>
         </div>
 
         <div class="skills">
             <h2>Skills</h2> 
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nihil, beatae omnis quod repellendus nesciunt quidem assumenda, sit optio quasi, qui blanditiis doloremque magnam eligendi dolore sapiente obcaecati atque! Assumenda.</p> -->
                 <h3 class="html">HTML</h3>
                 <img src="/images/180px-HTML5_logo_and_wordmark.svg.png" alt="html-logo">
                 <h3 class="css">CSS</h3>
@@ -115,22 +118,27 @@
             <div class="text">
                 <h2>Contact Me</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis, architecto, debitis dolorum voluptatibus sit dolore eligendi excepturi ratione saepe fuga soluta quis eum? Rem nulla nam animi temporibus itaque!</p>  
+               
             </div>
 
 
-        <form action="">
+        <!-- <form action="#">
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
+            <input type="text" id="fname" name="fname" value=""><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <label for="message">Enter Your Message:</label><br>
+            <input type="text" id="message" name="message" value=""><br>
+
             <input type="submit" value="Submit">
-  </form> 
+        </form>  -->
 
             <!-- <div class="map"></div> -->
 
 
         </section>
-       
+
+        
                     
     </div>
 

@@ -16,7 +16,7 @@ footer {
     font-size: large;
 }
 
-button {
+.minimize {
     background-color: rgb(48, 47, 47);
     height: 50px;
     width: 200px;
@@ -49,27 +49,30 @@ STICKY NAVBAR and Hamburger Menu Button
     display: block;
 }
 
-
+/* 
 .menu {
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 20;
+    left: 20;
+    right: 20;
+    bottom: 20;
     z-index: 99;
     background: black;
     color: white;
     list-style: none;
     padding-top: 4rem;
-  }
+  } */
 
   .showMenu {
     transform: translateY(0);
+    background-color: red;
   }
 
-
+.hamburger{
+    display: none;
+}
 
 /* //////// */
 
@@ -168,33 +171,34 @@ nav {
       
 
 /* 
-/* The .typewriter effect just for fun.  */
+/* The .typewriter effect just for fun.*/
 
 /* .typewriter h1 {
     color: #fff;
     font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    /* border-right: .15em solid orange; /* The typwriter cursor */
-    /* white-space: pre-line; /* Keeps the content on a single line */
-    /*margin: 0 auto; /*Gives that scrolling effect as the typing happens */
-    /*letter-spacing: .05em; /* Adjust as needed */
-    /*animation: 
+    overflow: hidden; /* Ensures the content is not revealed until the animation*/
+    /* border-right: .15em solid orange; The typwriter cursor */
+    /* white-space: pre-line; Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .05em; Adjust as needed */
+    /* animation:  */ 
     
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite; */
+      /* typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;  */
 
   
-  /* The typing effect */
- /* @keyframes typing {
+  /* The typing effect
+ @keyframes typing {
     from { width: 0 }
-    to { width: 100% } */
+    to { width: 100% }  */
 
   
   /* The typewriter cursor effect */
-  /* @keyframes blink-caret {
+
+    /* @keyframes blink-caret {
     from, to { border-color: transparent }
-    /* 50% { border-color: orange } */
-  /* }  */ 
+    50% { border-color: orange }
+  }  */
 
 
 .containerMain {
@@ -228,16 +232,15 @@ nav {
     max-width: 775px;
 
 }
-
+/* 
 .containerMain .name button{
     color: turquoise;
     width: 150px;
     height: 30px;
     border: turquoise;
     border-style: solid;
-    /* padding-left: 1em; */
     background-color:rgb(48, 47, 47);
-}
+}   */
 
  /* .containerMain .name p1 {
      color: turquoise;
@@ -271,7 +274,7 @@ nav {
 
 }
 
-.containerMain .about .myPhoto{
+/* .containerMain .about .myPhoto{
     grid-column: 2/4;
     grid-row: 3/4; 
     height: 150px;
@@ -279,7 +282,7 @@ nav {
     background-color: white;
     border-radius: 50%; 
     padding-left: 1em;
-}
+} */
    
 
 .containerMain .skills {
@@ -288,7 +291,7 @@ nav {
         grid-row: 4/5;
         color: turquoise;
         grid-template-columns: repeat(5 1fr);
-        grid-template-rows: 1fr 1fr; 
+        grid-template-rows: auto auto; 
         /* padding-bottom: 1em; */
     
 } 
@@ -394,6 +397,32 @@ CONTACT ME SECTION
 
 }
 
+.container .contain-me {
+    margin-top: 2em;
+    display: inline;
+    /* justify-content: center; */
+    grid-column: 4/5; 
+    grid-row: 6/7; 
+    height: 100px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(48, 47, 47);
+    padding-left: 85px;
+    padding-top: 5em;
+
+
+}
+
+.container .contact-me a {
+
+    grid-column: 1/4;
+    grid-row: 3/4;    
+    color: white;
+    /* text-align: center; */
+      }
+
+
 
 
 /* *************
@@ -442,6 +471,9 @@ display: none;
     padding-left: 10px;
 
 } 
+
+
+
 
 
 
