@@ -1,10 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* **************************************
@@ -23,7 +24,7 @@ STICKY NAVBAR and Hamburger Menu Button
 }
 
 .closeIcon {
-    display: none;
+    display: block;
 }
 
 
@@ -104,8 +105,7 @@ STICKY NAVBAR and Hamburger Menu Button
     display: grid;
     grid-column: 1/4;
     grid-row: 1/2;
-    height: 100px;
-
+    
 }
 
 .container .header .logo {
@@ -171,6 +171,7 @@ STICKY NAVBAR and Hamburger Menu Button
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6 1fr);
     padding-left: 85px;
+    max-width: 880px;
     
 }
 
@@ -191,6 +192,7 @@ STICKY NAVBAR and Hamburger Menu Button
     padding-bottom: 25px;
     padding-top: .5em;
     padding-right: 40px;
+    max-width: 775px;
 
 }
 
@@ -238,8 +240,8 @@ STICKY NAVBAR and Hamburger Menu Button
 .containerMain .about .myPhoto{
     grid-column: 2/4;
     grid-row: 3/4; 
-    height: 45vh;
-    width: 45vw;
+    height: 100px;
+    width: 100px;
     background-color: white;
     border-radius: 50%; 
 }
@@ -363,6 +365,10 @@ CONTACT ME SECTION
   H2 COLOR AND SIZE 
 ************ */
 
+h2 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
 .containerMain .portfolio h2 {
     color: turquoise;
     border: turquoise;
@@ -409,6 +415,8 @@ FOOTER
     color: white;
     font-size: small;
     background-color: rgb(48, 47, 47);
+    padding-left: 85px;
+
 
 }
 
