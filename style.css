@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
@@ -26,7 +30,7 @@ footer {
     font-family: 'Mochiy Pop P One', sans-serif;
     color: turquoise;
     padding: 3px;
-    border: solid turquoise ;
+    border: solid #40e0d0 ;
 }
 
 
@@ -98,7 +102,7 @@ nav {
   nav a:hover {
     background-color: turquoise;
     color: white;
-    font-size: 2em;
+    font-size: 20px;
   }
   
   nav a.active {
@@ -307,7 +311,7 @@ SKILLS BOXS
     height: 150px;
     width: 150px;
     text-align: center;
-    box-shadow: 6px 1px 6px 6px  teal;
+    box-shadow: 6px 1px 6px 6px  #e06540;
     margin-bottom: 2em;
 
 }
@@ -318,7 +322,7 @@ SKILLS BOXS
     height: 150px;
     width: 150px;
     text-align: center;
-    box-shadow: 6px 1px 6px 6px  red;
+    box-shadow: 6px 1px 6px 6px  #e0b540;
     margin-bottom: 2em;
 
 
@@ -363,7 +367,7 @@ SKILLS BOXS
     height: 150px;
     width: 150px;
     text-align: center;
-    box-shadow: 6px 1px 6px 6px  rgb(4, 0, 255);
+    box-shadow: 6px 1px 6px 6px  #8840e0;
     margin-bottom: 2em;
 
 
