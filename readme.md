@@ -62,7 +62,7 @@ BRAINSTORMING:
 * List of the features in order of priorty. Click [here](https://drive.google.com/file/d/1HdZhLCT-eNyy1lYta30LOH8sUy2qMweN/view?usp=sharing) to see the image of the complete list. Also, please note that 30mins was added to each feature for margin time.  
 
 Value Order | Feature (Priority Level)        | Budgeted Time |
-|-----------|----------------|---------------|------------|
+|-----------|----------------|---------------|
 A1          |Grid & Flex Box (High) | 2.5hrs |
 G2| Make Responsive to tablet and desktop (High)| 2.5hrs |  
 B3 | Insert Placeholder content and images (Mid-High) | 2hrs |
