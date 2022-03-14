@@ -61,17 +61,17 @@ BRAINSTORMING:
 
 * List of the features in order of priorty. Click [here](https://drive.google.com/file/d/1HdZhLCT-eNyy1lYta30LOH8sUy2qMweN/view?usp=sharing) to see the image of the complete list. Also, please note that 30mins was added to each feature for margin time.  
 
-Value Order | Feature (Priority Level)        | Budgeted Time | Actual Time
+Value Order | Feature (Priority Level)        | Budgeted Time |
 |-----------|----------------|---------------|------------|
-A1          |Grid & Flex Box (High) | 2.5hrs | 1.5hrs
-G2| Make Responsive to tablet and desktop (High)| 2.5hrs |  3hrs 
-B3 | Insert Placeholder content and images (Mid-High) | 2hrs | 30 mins 
-C4| Set Functions and Nav Sticky Bar (Mid-High) |1.5hrs | 2hr 17mins
-E5 | DeBug (Medium) | 1.5hrs | 50mins 
-D6|Flip/Toggle Portfolio Skills Boxes (Medium) | 2hrs | - 
-F7 |Add Sound and Amination (Mid-Low) |1hr | - 
-H8|Name dropdown when user scrolls down (Low)|2.5hrs | - 
-I9 |Add Favicon (low) | 30 mins  |  30mins 
+A1          |Grid & Flex Box (High) | 2.5hrs |
+G2| Make Responsive to tablet and desktop (High)| 2.5hrs |  
+B3 | Insert Placeholder content and images (Mid-High) | 2hrs |
+C4| Set Functions and Nav Sticky Bar (Mid-High) |1.5hrs | 
+E5 | DeBug (Medium) | 1.5hrs | 
+D6|Flip/Toggle Portfolio Skills Boxes (Medium) | 2hrs | 
+F7 |Add Sound and Amination (Mid-Low) |1hr | 
+H8|Name dropdown when user scrolls down (Low)|2.5hrs | 
+I9 |Add Favicon (low) | 30 mins  | 
 
 
 
